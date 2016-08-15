@@ -18,9 +18,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".AsyncTaskActivity"/>
-        <activity android:name=".NewThreadActivity"/>
-        <activity android:name=".RxJavaActivity"/>
+        <activity android:name=".rxJavaSimple.RxJavaSceneActivity"/>
+        <activity android:name=".rxJavaSimple.RxJavaSimpleActivity"/>
     </application>
 
 </manifest>
