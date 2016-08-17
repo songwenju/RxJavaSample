@@ -1,4 +1,4 @@
-package com.example.songwenju.rxjavasample;
+package com.example.songwenju.rxjavasample.common;
 
 /**
  * songwenju on 16-8-12 : 10 : 12.

@@ -1,4 +1,4 @@
-package com.example.songwenju.rxjavasample.rxJavaSimple;
+package com.example.songwenju.rxjavasample.simple;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -9,7 +9,7 @@ import android.os.Message;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.songwenju.rxjavasample.AppConstant;
+import com.example.songwenju.rxjavasample.common.AppConstant;
 import com.example.songwenju.rxjavasample.R;
 import com.example.songwenju.rxjavasample.util.BitmapUtil;
 import com.example.songwenju.rxjavasample.util.LogUtil;
