@@ -46,8 +46,7 @@ public class ItemDetailFragment extends Fragment {
         if (item != null) {
             switch (item.id) {
                 case "1":
-                    //轮询
-                    mItemDetail.setText(JavaBlock.PERIODICALLY);
+                    mItemDetail.setText(JavaBlock.SCHEDULER);
                     break;
                 case "2":
                     mItemDetail.setText(JavaBlock.MERGE);
@@ -69,6 +68,15 @@ public class ItemDetailFragment extends Fragment {
                     break;
                 case "8":
                     mItemDetail.setText(JavaBlock.UPDATE);
+                    break;
+                case "9":
+                    mItemDetail.setText(JavaBlock.CACHE_CHECK);
+                    break;
+                case "10":
+                    mItemDetail.setText(JavaBlock.COMBINE_LATEST);
+                    break;
+                case "11":
+                    mItemDetail.setText(JavaBlock.TEXT_SEARCH);
                     break;
             }
         }
